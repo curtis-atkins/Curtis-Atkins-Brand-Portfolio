@@ -1,0 +1,70 @@
+#top{
+
+}
+#top .container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 80px 0;
+}
+#top .info{
+  margin-top: 35%;
+  padding: 0px 10px 0 180px;
+  align-items: center;
+  position: relative;
+}
+
+#top .info .blue-square{
+  border: 20px solid #dbf1ff;
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  z-index: 0;
+  top: -70%;
+  left: -10%;
+}
+
+#top .info h1 {
+  position: relative;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #2E2E2E;
+  margin-bottom: 1rem;
+  z-index: 1;
+}
+
+#top .info p{
+  position: relative;
+  color: #919191;
+  text-transform: capitalize;
+  margin-bottom: 4rem;
+  z-index: 1;
+}
+
+#top .info a{
+  position: relative;
+  color: #2E2E2E;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #000;
+  z-index: 1;
+  letter-spacing: 2px;
+}
+
+#top .img{
+height:20px;
+width: 20px;
+}
+
+#top .img .background-img{
+  background: url('../img/curtis.jpg');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 2000%;
+  //max-width: 1000px;
+  height: 600px;
+  margin: 0 auto;
+}
