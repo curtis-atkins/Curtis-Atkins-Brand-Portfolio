@@ -35,7 +35,6 @@
 #portfolio .portfolio-container{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 10px;
 }
 
@@ -43,15 +42,15 @@
     background: red;
     display: block;
     transition: all .3s ease-in-out;
-    padding: 40px;
     justify-content: center;
+    height: 100px;
     width: 100%;
     color: white;
     font-size: 20px;
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
-
+    overflow: hidden;
 }
 
 #portfolio .portfolio-container .box:hover{
@@ -62,23 +61,47 @@
   cursor: pointer;
 }
 
+#portfolio .portfolio-container .box .image .hover-bg{
+  padding: 40px 10px;
+  background: rgba(255, 255, 255, 0);
+  transition: all .4s ease-in-out;
+}
+
+#portfolio .portfolio-container .box:hover .image .hover-bg{
+  padding: 30px 10px;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+#portfolio .portfolio-container .box .image .hover-bg .portfolio-title .text{
+  background: black;
+  border-radius: 5px;
+  padding: 10px 20px;
+  opacity: .85;
+  transform: translate3d( 0, 400px, 0);
+  transition: all .17s ease-in-out;
+}
+
+#portfolio .portfolio-container .box:hover .image .hover-bg .portfolio-title .text{
+  background: black;
+  border-radius: 5px;
+  padding: 10px 20px;
+  opacity: .85;
+  transform: translate3d( 0, 0, 0);
+}
+
+/* Box Locations */
 #portfolio .portfolio-container .box.img1{
   grid-column: 1 / 3;
   grid-row:  1 / 2;
+}
+
+#portfolio .portfolio-container .box.img1 .image{
   background:  url("../img/thanks_4x.png");
   height: 100%;
   width: 100%;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-}
-
-#portfolio .portfolio-container .box.img1 .portfolio-title{
-background: black;
-border-radius: 5px;
-padding: 10px 20px;
-opacity: .85;
-
 }
 
 #portfolio .portfolio-container .box i{
@@ -99,7 +122,6 @@ opacity: .85;
   line-height: 1.5;
   color: #808080;
 }
-
 
 #portfolio .portfolio-container .box.blue{
   border-bottom: 2px solid #52b8ff;
