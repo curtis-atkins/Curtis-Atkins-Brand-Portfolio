@@ -1,6 +1,7 @@
 @import "css-reset.css";
-@import "top-section.css";
+@import "top.css";
 @import "services.css";
+@import "portfolio.css";
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
 body{
