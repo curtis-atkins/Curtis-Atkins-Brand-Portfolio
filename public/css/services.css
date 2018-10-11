@@ -85,3 +85,13 @@
 #services .services-container .box.yellow{
   border-bottom: 2px solid #ffc853;
 }
+
+/* Tablets */
+@media only and screen (max-width: 960px){
+
+}
+
+/* Phones */
+@media only and screen (max-width: 767px){
+
+}
