@@ -62,7 +62,6 @@ width: 20px;
   background-repeat: no-repeat;
   background-size: cover;
   width: 512px;
-  //max-width: 1000px;
   height:450px;
   margin: 0 auto;
 }
@@ -90,8 +89,8 @@ width: 20px;
   }
 
   #top .img .background-img{
-    width: 400px;
-    height: 500px;
+    width: 450px;
+    height: 450px;
   }
 }
 
@@ -102,7 +101,7 @@ width: 20px;
   }
 
   #top .info {
-    padding: 0 10px 0 20px;
+    padding: 0 0 0 10px;
   }
 
   #top .info .blue-square{
@@ -110,15 +109,15 @@ width: 20px;
   }
 
   #top .info h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   #top .info p{
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   #top .img .background-img{
     width: 210px;
-    height:400px;
+    height:350px;
   }
 }

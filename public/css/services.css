@@ -73,7 +73,6 @@
   color: #808080;
 }
 
-
 #services .services-container .box.blue{
   border-bottom: 2px solid #52b8ff;
 }
@@ -86,12 +85,17 @@
   border-bottom: 2px solid #ffc853;
 }
 
-/* Tablets */
-@media only and screen (max-width: 960px){
+/* Phones and Tablets */
+@media only screen and (max-width: 960px){
+  #services .services-container{
+    grid-template-columns: 100%;
+  }
 
-}
-
-/* Phones */
-@media only and screen (max-width: 767px){
-
+  #services .services-container .box{
+    background: rgba(255,255,255,1);
+    -webkit-box-shadow: 0px 0px 34px -9px rgba(0,0,0,0.8);
+    -moz-box-shadow: 0px 0px 34px -9px rgba(0,0,0,0.8);
+    box-shadow: 0px 0px 34px -9px rgba(0,0,0,0.8);
+    cursor: pointer;
+  }
 }
