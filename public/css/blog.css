@@ -41,6 +41,7 @@
   padding: 35px;
   position: absolute;
   top: 100%;
+  height: 110%;
   width: 100%;
   transform: translate3d(0, -390px, 0);
   transition: all .4s ease-in-out;
@@ -104,10 +105,28 @@
 
 /* Tablets */
 @media only screen and (max-width: 960px){
+  #blog{
+    padding: 20px;
+  }
 
+  #blog .blog-container{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 588px 588px 588px;
+  }
 }
 
 /* Phones */
 @media only screen and (max-width: 767px){
+  #blog{
+    padding: 10px;
+  }
 
+  #blog .title h1{
+    font-size: 2.5rem;
+  }
+
+  #blog .blog-container{
+    grid-template-columns: 1fr;
+    grid-template-rows: 588px 588px 588px 588px 588px 588px;
+  }
 }

@@ -51,7 +51,7 @@
   display: inline-block;
   border-radius: 50%;
   top: 95px;
-  left: 100px;
+  left: 50px;
   position: relative;
 }
 
@@ -139,10 +139,89 @@ padding: 80px 0 0;
 
 /* Tablets */
 @media only screen and (max-width: 960px){
+  #experience{
+    padding: 50px 15px;
+  }
+
+  #experience .large-title{
+    font-size: 3.3rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+  }
+
+  #experience .experience-container .large-icons{
+    position: relative;
+    top: -10px;
+  }
+
+  #experience .experience-container .large-icons .square{
+    top: 65px;
+    left: 50px;
+  }
+
+   #experience .experience-container .large-icons .circle{
+    top: 65px;
+    left: 50px;
+  }
+
+  #experience .experience-container .large-icons .triangle{
+    top: 38px;
+  }
+
+  #experience .experience-container .info{
+  padding: 40px 0 0;
+  }
+
+  #experience .experience-container .info .info-box h3{
+    font-size: 1.5rem;
+  }
+
+  #experience .experience-container .info .info-box h4{
+    font-size: 1.3rem;
+  }
 
 }
 
 /* Phones */
 @media only screen and (max-width: 767px){
+  #experience{
+    padding: 50px 15px;
+  }
 
+  #experience .large-title{
+    font-size: 3.3rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+  }
+
+  #experience .experience-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+
+  #experience .experience-container .info{
+  padding: 40px 0 0;
+  }
+
+  #experience .experience-container .info .info-box{
+    padding: 0;
+  }
+
+  #experience .experience-container .large-icons{
+    display: none;
+  }
+
+  #experience .experience-container .info .info-box h3{
+    font-size: 1.5rem;
+    padding: 20px 0;
+  }
+
+  #experience .experience-container .info .info-box h4{
+    font-size: 1.3rem;
+  }
+
+  #experience .experience-container .info .info-box p{
+    padding: 10px 0;
+  }
 }
