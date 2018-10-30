@@ -99,7 +99,7 @@
 }
 
 #portfolio .portfolio-container .box.img1 .image{
-  background:  url("../img/thanks_4x.png");
+  background:  url("../../img/hyperapp-restaurant-website/hyperapp-welcome.jpg");
   height: 100%;
   width: 100%;
   background-size: cover;
@@ -117,7 +117,7 @@
 }
 
 #portfolio .portfolio-container .box.img2 .image{
-  background:  url("../img/dashboard.png");
+  background:  url("../../img/dashboard.png");
   height: 100%;
   width: 100%;
   background-size: cover;
@@ -135,7 +135,7 @@
 }
 
 #portfolio .portfolio-container .box.img3 .image{
-  background:  url("../img/ad.jpg");
+  background:  url("../../img/ad.jpg");
   height: 100%;
   width: 100%;
   background-size: cover;
@@ -153,7 +153,7 @@
 }
 
 #portfolio .portfolio-container .box.img4 .image{
-  background:  url("../img/pond.jpg");
+  background:  url("../../img/pond.jpg");
   height: 100%;
   width: 100%;
   background-size: cover;
@@ -171,7 +171,7 @@
 }
 
 #portfolio .portfolio-container .box.img5 .image{
-  background:  url("../img/landing-page.png");
+  background:  url("../../img/landing-page.png");
   height: 100%;
   width: 100%;
   background-size: cover;

@@ -57,7 +57,7 @@ width: 20px;
 }
 
 #top .img .background-img{
-  background: url('../img/curtis.jpg');
+  background: url('../../img/curtis.jpg');
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
