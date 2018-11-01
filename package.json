@@ -1,11 +1,11 @@
 {
-  "name": "CodingPhase-StarterKit",
+  "name": "Curtis-Atkins-Branding-Portfolio",
   "version": "1.0.0",
-  "description": "Super Cool Framework",
+  "description": "Curtis Atkins Branding Portfolio",
   "main": "index.js",
-  "author": "joe santos garcia",
+  "author": "Curtis Atkins Jr.",
   "license": "MIT",
-  "homepage": "http://rocky.codingphase.com/",
+  "homepage": "",
   "dependencies": {
     "axios": "^0.16.1",
     "babel-core": "^6.24.1",

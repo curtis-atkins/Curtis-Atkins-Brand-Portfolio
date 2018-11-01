@@ -112,6 +112,20 @@
     margin-bottom: 1rem;
   }
 
+  #portfolio-projects .info .buttons {
+    text-align: center;
+  }
+
+  #portfolio-projects .info .buttons a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    color: black;
+    background: #ff5253;
+    text-transform: capitalize;
+  }
+
   #portfolio-projects .project-images{
     margin-bottom: 1rem;
   }
@@ -126,6 +140,10 @@
       margin: .9rem 0;
       text-align: center;
   }
+
+  #portfolio-projects .technologies .icons img{
+    filter: grayscale(0%);
+  }
 }
 
 /* Mobile */
@@ -133,10 +151,6 @@
   #portfolio-projects .technologies .icons{
     display: grid;
     grid-template-columns: 1fr 1fr;
-  }
-
-  #portfolio-projects .info .buttons {
-    text-align: center;
   }
 
   #portfolio-projects .info .buttons a{
